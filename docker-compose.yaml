@@ -1,0 +1,8 @@
+services:
+  serve_mpt:
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .cache:/app/.cache

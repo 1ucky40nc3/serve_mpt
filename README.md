@@ -40,3 +40,11 @@ python src/serve_mpt/main.py
 uvicorn src.serve_mpt.main:app --reload
 ```
 This starts a webserver at [`http://127.0.0.1:8000`](http://127.0.0.1:8000) with OpenAPI documentation [`http://127.0.0.1:8000/docs`](http://127.0.0.1:8000/docs) and ReDoc docs at [`http://127.0.0.1:8000/redoc`](http://127.0.0.1:8000/redoc).
+
+### Usage with Docker Compose
+
+You can start the FastAPI app by executing something like the following commands:
+```bash
+docker compose build
+docker compose up
+```
