@@ -32,7 +32,10 @@ python -m pip install -e .
 
 ### Manual Usage
 
-You start and use the FastAPI app manually with the following command:
+You start and use the FastAPI app manually with the following commands:
+```bash
+python src/serve_mpt/main.py
+```
 ```bash
 uvicorn src.serve_mpt.main:app --reload
 ```

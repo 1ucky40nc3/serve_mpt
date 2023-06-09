@@ -1,0 +1,5 @@
+{
+    "name": "mpt-7b-instruct_ggml_quant-q4_0",
+    "path": ".cache/models/mpt-7b-instruct_ggml_quant-q4_0.bin",
+    "type": "mpt"
+}
