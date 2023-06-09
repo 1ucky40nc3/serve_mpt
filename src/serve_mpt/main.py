@@ -84,7 +84,7 @@ def argument_parser() -> argparse.ArgumentParser():
 def main() -> None:
     parser = argument_parser()
     args = parser.parse_args()
-    logger.info(f"Starting frontend with args:\n{json.dums(vars(args), indent=2)}")
+    logger.info(f"Starting frontend with args:\n{json.dumps(vars(args), indent=2)}")
 
     global DEFAULT_MODEL_CONFIG_PATH
     DEFAULT_MODEL_CONFIG_PATH = args.model_config
